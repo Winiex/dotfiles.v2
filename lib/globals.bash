@@ -1,0 +1,2 @@
+GLB_USER_HOME=`echo ~`
+GLB_DOT_FILE_DIR="${GLB_USER_HOME}/.dotfiles"
