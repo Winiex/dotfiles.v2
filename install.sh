@@ -7,13 +7,13 @@ source ./lib/colors.bash
 
 if [[ $SYS_PLATFORM == "osx" ]]
 then
-    source ./osx/setup.sh
+    source ./osx/install.sh
 elif [[ $SYS_PLATFORM == "arch" ]]
 then
-    source ./arch/setup.sh
+    source ./arch/install.sh
 elif [[ $SYS_PLATFORM == "ubuntu" ]]
 then
-    source ./ubuntu/setup.sh
+    source ./ubuntu/install.sh
 fi
 
 clr_green "Now install bash configurations."
