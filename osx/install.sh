@@ -1,3 +1,5 @@
 source ./bootstrap.bash
 
-BREW_TAPS=`brew tap`
+source ./install_pkgs.bash
+source ./install_software.bash
+source ./install_fonts.bash

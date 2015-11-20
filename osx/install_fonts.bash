@@ -1,4 +1,6 @@
-if [[ $BREW_TAPS == *caskroom/fonts* ]]
+BREW_TAPS=`brew tap`
+
+if ! [[ $BREW_TAPS == *caskroom/fonts* ]]
 then
     clr_green "Install Homebrew Cask fonts repository."
     brew tap caskroom/fonts
@@ -13,7 +15,7 @@ for font in $fonts
 do
     if ! [[ $exist_fonts == *${font}* ]]
     then
-        clr_green "Now install font: "${font}
+        clr_green "Now install font: ${font}."
         brew cask install $font
         clr_green "Finished."
     fi

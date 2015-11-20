@@ -1,6 +1,6 @@
 if ! [[ -x $(which virtualenvwrapper.sh) ]]
 then
-    echo "Now install virtualenvwrapper."
+    clr_green "Now install virtualenvwrapper."
     pip install virtualenvwrapper
-    echo "Finished."
+    clr_green "Finished."
 fi

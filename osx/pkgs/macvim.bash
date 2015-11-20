@@ -15,7 +15,7 @@ fi
 
 if [[ $NEED_INSTALL == true ]]
 then
-    echo "Now install MacVim and override the system default one."
+    clr_green "Now install MacVim and override the system default one."
     brew install macvim --with-override-system-vim
-    echo "Finished."
+    clr_green "Finished."
 fi
