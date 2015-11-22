@@ -1,3 +1,4 @@
+#!/usr/bin/env bash
 source ./bootstrap.bash
 
 source ./install_pkgs.bash

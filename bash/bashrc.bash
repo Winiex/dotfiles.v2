@@ -1,1 +1,1 @@
-source ./bash_profile.sh
+source ./bash_profile.bash

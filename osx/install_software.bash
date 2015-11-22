@@ -1,4 +1,4 @@
-software_install_scripts=`ls ./software`
+software_install_scripts=`ls ./software/`
 
 for script in $software_install_scripts
 do
