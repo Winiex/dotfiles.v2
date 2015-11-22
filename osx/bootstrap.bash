@@ -52,7 +52,7 @@ if ! [[ -x $(which pip) ]]
 then
     echo "Now install pip."
     wget -O /tmp/get-pip.py https://bootstrap.pypa.io/get-pip.py
-    $(which python2.7) /tmp/get-pip.py
+    sudo $(which python2.7) /tmp/get-pip.py
     rm /tmp/get-pip.py
     echo "Finished."
 fi

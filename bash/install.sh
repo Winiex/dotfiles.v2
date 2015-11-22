@@ -16,8 +16,8 @@ then
 fi
 
 ln -s $GLB_BASH_HOME/bash_profile.bash $GLB_USER_HOME/.bash_profile
-ln -s $GLB_BASH_HOME/bashrc.bash $GLB_BASH_HOME/.bashrc
-ln -s $GLB_BASH_IT_HOME $GLB_BASH_HOME/.bash_it
+ln -s $GLB_BASH_HOME/bashrc.bash $GLB_USER_HOME/.bashrc
+ln -s $GLB_BASH_IT_HOME $GLB_USER_HOME/.bash_it
 
 #Install common components
 clr_green "Now install common components."
