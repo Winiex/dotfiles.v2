@@ -16,17 +16,17 @@ then
 fi
 
 ln -s $GLB_BASH_HOME/bash_profile.bash $GLB_USER_HOME/.bash_profile
-ln -s $GLB_BASH_HOME/bashrc.bash ~/.bashrc
-ln -s $GLB_BASH_IT_HOME ~/.bash_it
+ln -s $GLB_BASH_HOME/bashrc.bash $GLB_BASH_HOME/.bashrc
+ln -s $GLB_BASH_IT_HOME $GLB_BASH_HOME/.bash_it
 
 #Install common components
 clr_green "Now install common components."
-source ./install_common.bash
+source $GLB_BASH_HOME/install_common.bash
 clr_green "Finished."
 
 #Install bash-it components
 clr_green "Now install bash-it components."
-source ./install_aliases.bash
-source ./install_completion.bash
-source ./install_plugins.bash
+source $GLB_BASH_HOME/install_aliases.bash
+source $GLB_BASH_HOME/install_completion.bash
+source $GLB_BASH_HOME/install_plugins.bash
 clr_green "Finished."

@@ -10,7 +10,7 @@ fi
 exist_fonts=`brew cask list | grep font`
 
 clr_green "Now install fonts."
-fonts=`cat ./config/fonts.list`
+fonts=`cat ${GLB_OSX_INSTALL_HOME}/config/fonts.list`
 for font in $fonts
 do
     if ! [[ $exist_fonts == *${font}* ]]

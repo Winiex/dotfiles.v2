@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-source ./bootstrap.bash
+source $GLB_OSX_INSTALL_HOME/bootstrap.bash
 
-source ./install_pkgs.bash
-source ./install_software.bash
-source ./install_fonts.bash
+source $GLB_OSX_INSTALL_HOME/install_pkgs.bash
+source $GLB_OSX_INSTALL_HOME/install_software.bash
+source $GLB_OSX_INSTALL_HOME/install_fonts.bash

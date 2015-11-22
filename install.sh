@@ -27,6 +27,10 @@ GLB_VIM_HOME=$GLB_USER_HOME/.dotfiles/vim
 GLB_BASH_HOME=$GLB_USER_HOME/.dotfiles/bash
 GLB_BASH_IT_HOME=$GLB_USER_HOME/.dotfiles/bash/bash-it
 
+GLB_OSX_INSTALL_HOME=$GLB_USER_HOME/.dotfiles/osx
+GLB_UBUNTU_INSTALL_HOME=$GLB_USER_HOME/.dotfiles/ubuntu
+GLB_ARCH_INSTALL_HOME=$GLB_USER_HOME/.dotfiles/arch
+
 # Constants and functions for terminal colors.
 # Author: Max Tsepkov <max@yogi.pw>
 CLR_ESC="\033["
