@@ -20,6 +20,7 @@ Bundle 'nathanaelkane/vim-indent-guides'
 Bundle 'Shougo/neocomplete.vim'
 Bundle 'ervandew/supertab'
 Bundle 'mileszs/ack.vim'
+Bundle 'scrooloose/nerdcommenter'
 
 "Python support
 Bundle 'klen/python-mode'

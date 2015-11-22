@@ -21,10 +21,10 @@ clr_green "#  Now download basic dotfiles        #"
 clr_green "#######################################"
 printf "\n"
 
-git clone --recursive https://github.com/Winiex/dotfiles.git ~/.dotfiles
+git clone --recursive https://github.com/Winiex/dotfiles.v2.git ~/.dotfiles
 
 cd ~/.dotfiles
-git remote set-url origin "git@github.com:Winiex/dotfiles.git"
+git remote set-url origin "git@github.com:Winiex/dotfiles.v2.git"
 
 clr_green "#######################################"
 clr_green "# Basic dotfiles installed.           #"
