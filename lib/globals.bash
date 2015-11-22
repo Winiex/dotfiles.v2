@@ -1,2 +1,5 @@
-GLB_USER_HOME=`echo ~`
-GLB_DOT_FILE_DIR="${GLB_USER_HOME}/.dotfiles"
+GLB_USER_HOME=$HOME
+GLB_DOT_FILE_DIR=$GLB_USER_HOME/.dotfiles
+GLB_VIM_HOME=$GLB_USER_HOME/.dotfiles/vim
+GLB_BASH_HOME=$GLB_USER_HOME/.dotfiles/bash
+GLB_BASH_IT_HOME=$GLB_USER_HOME/.dotfiles/bash/bash-it
