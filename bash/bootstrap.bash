@@ -1,3 +1,3 @@
-source $GLB_DOT_FILE_DIR/lib/globals.bash
-source $GLB_DOT_FILE_DIR/lib/sysinfo.bash
-source $GLB_DOT_FILE_DIR/lib/colors.bash
+source ~/.dotfiles/lib/globals.bash
+source ~/.dotfiles/lib/sysinfo.bash
+source ~/.dotfiles/lib/colors.bash

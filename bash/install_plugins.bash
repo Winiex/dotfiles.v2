@@ -8,26 +8,26 @@ then
     mkdir $GLB_BASH_IT_HOME/plugins/enabled
 fi
 
-for general_plugin in $general_plugins
+for general_plugin in ${general_plugins[@]}
 do
     ln -s -f $GLB_BASH_IT_HOME/plugins/available/$general_plugin $GLB_BASH_IT_HOME/plugins/enabled/$general_plugin
 done
 
 if [[ $OS_DISTRO == "darwin" ]]
 then
-    for osx_plugin in $osx_plugins
+    for osx_plugin in ${osx_plugins[@]}
     do
         ln -s -f $GLB_BASH_IT_HOME/plugins/available/$osx_plugin $GLB_BASH_IT_HOME/plugins/enabled/$osx_plugin
     done
 elif [[ $OS_DISTRO == "ubuntu" ]]
 then
-    for ubuntu_plugin in $ubuntu_plugins
+    for ubuntu_plugin in ${ubuntu_plugins[@]}
     do
         ln -s -f $GLB_BASH_IT_HOME/plugins/available/$ubuntu_plugin $GLB_BASH_IT_HOME/plugins/enabled/$ubuntu_plugin
     done
 elif [[ $OS_DISTRO == "arch" ]]
 then
-    for arch_plugin in $arch_plugins
+    for arch_plugin in ${arch_plugins[@]}
     do
         ln -s -f $GLB_BASH_IT_HOME/plugins/available/$arch_plugin $GLB_BASH_IT_HOME/plugins/enabled/$arch_plugin
     done

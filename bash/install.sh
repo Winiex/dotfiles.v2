@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+source ~/.dotfiles/bash/bootstrap.bash
 
 #Setup bash config files.
 if [[ -f $GLB_USER_HOME/.bash_profile ]]
@@ -15,9 +16,14 @@ then
     mv $GLB_USER_HOME/.bashrc $GLB_USER_HOME/.bashrc_backup
 fi
 
+if [[ -L $GLB_USER_HOME/.bash_it ]]
+then
+    rm $GLB_USER_HOME/.bash_it
+fi
+
 ln -s $GLB_BASH_HOME/bash_profile.bash $GLB_USER_HOME/.bash_profile
 ln -s $GLB_BASH_HOME/bashrc.bash $GLB_USER_HOME/.bashrc
-ln -s $GLB_BASH_IT_HOME $GLB_USER_HOME/.bash_it
+ln -s -f $GLB_BASH_IT_HOME $GLB_USER_HOME/.bash_it
 
 #Install common components
 clr_green "Now install common components."
@@ -29,4 +35,5 @@ clr_green "Now install bash-it components."
 source $GLB_BASH_HOME/install_aliases.bash
 source $GLB_BASH_HOME/install_completion.bash
 source $GLB_BASH_HOME/install_plugins.bash
+cd $GLB_BASH_IT_HOME && source ./install.sh
 clr_green "Finished."
