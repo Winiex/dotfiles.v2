@@ -9,5 +9,6 @@ source $GLB_BASH_HOME/configs/golang.bash
 
 #Load custom alias
 source $GLB_BASH_HOME/alias/shortcuts.bash
+source $GLB_BASH_HOME/alias/sublime.bash
 
 source $GLB_BASH_IT_HOME/bash_it.sh
