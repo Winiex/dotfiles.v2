@@ -1,0 +1,5 @@
+alias ccode="cd ${GLB_CODE_DIR}"
+alias cplay="cd ${GLB_PLAY_DIR}"
+alias cblog="cd ${GLB_BLOG_DIR}"
+alias cposts="cd ${GLB_BLOG_POSTS_DIR}"
+alias csource="cd ${GLB_SOURCE_CODE_DIR}"

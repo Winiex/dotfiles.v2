@@ -24,18 +24,30 @@ fi
 
 if [[ -d $GLB_USER_HOME/repository/code ]]
 then
-    clr_green "Link ~/repository/code to ~/code."
-    ln -s -f $GLB_USER_HOME/repository/code $GLB_USER_HOME/code
+    echo "Link ~/repository/code to ~/code."
+
+    if ! [[ -L $GLB_USER_HOME/code ]]
+    then
+        ln -s -f $GLB_USER_HOME/repository/code $GLB_USER_HOME/code
+    fi
 fi
 
 if [[ -d $GLB_USER_HOME/repository/source ]]
 then
-    clr_green "Link ~/repository/source to ~/source."
-    ln -s -f $GLB_USER_HOME/repository/source $GLB_USER_HOME/source
+    echo "Link ~/repository/source to ~/source."
+
+    if ! [[ -L $GLB_USER_HOME/source ]]
+    then
+        ln -s -f $GLB_USER_HOME/repository/source $GLB_USER_HOME/source
+    fi
 fi
 
 if [[ -d ~/repository/play ]]
 then
-    clr_green "Link ~/repository/play to ~/play."
-    ln -s -f $GLB_USER_HOME/repository/play $GLB_USER_HOME/play
+    echo "Link ~/repository/play to ~/play."
+
+    if ! [[ -L $GLB_USER_HOME/play ]]
+    then
+        ln -s -f $GLB_USER_HOME/repository/play $GLB_USER_HOME/play
+    fi
 fi
