@@ -198,13 +198,13 @@ printf "\n"
 
 if [[ $SYS_PLATFORM == "osx" ]]
 then
-    source ./osx/install.sh
+    source $GLB_DOT_FILE_DIR/osx/install.sh
 elif [[ $SYS_PLATFORM == "arch" ]]
 then
-    source ./arch/install.sh
+    source $GLB_DOT_FILE_DIR/arch/install.sh
 elif [[ $SYS_PLATFORM == "ubuntu" ]]
 then
-    source ./ubuntu/install.sh
+    source $GLB_DOT_FILE_DIR/ubuntu/install.sh
 fi
 
 clr_green "#######################################"
@@ -220,7 +220,7 @@ clr_green "#  Now install bash configurations    #"
 clr_green "#######################################"
 printf "\n"
 
-source ./bash/install.sh
+source $GLB_DOT_FILE_DIR/bash/install.sh
 
 clr_green "#######################################"
 clr_green "# Bash configurations installed.      #"
@@ -235,7 +235,7 @@ clr_green "#  Now install vim configurations     #"
 clr_green "#######################################"
 printf "\n"
 
-source ./vim/install.sh
+source $GLB_DOT_FILE_DIR/vim/install.sh
 
 clr_green "#######################################"
 clr_green "# Vim configurations installed.       #"

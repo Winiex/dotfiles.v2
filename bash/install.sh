@@ -35,5 +35,4 @@ clr_green "Now install bash-it components."
 source $GLB_BASH_HOME/install_aliases.bash
 source $GLB_BASH_HOME/install_completion.bash
 source $GLB_BASH_HOME/install_plugins.bash
-cd $GLB_BASH_IT_HOME && source ./install.sh
 clr_green "Finished."
