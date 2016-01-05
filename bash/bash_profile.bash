@@ -13,5 +13,6 @@ source $GLB_BASH_HOME/alias/basic.bash
 source $GLB_BASH_HOME/alias/shortcuts.bash
 source $GLB_BASH_HOME/alias/sublime.bash
 source $GLB_BASH_HOME/alias/git.bash
+source $GLB_BASH_HOME/alias/virtualenv.bash
 
 source $GLB_BASH_IT_HOME/bash_it.sh
