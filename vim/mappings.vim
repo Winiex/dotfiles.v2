@@ -33,5 +33,8 @@ nmap zt <Leader>ig
 "Toggle undo tree
 nmap zu :UndotreeToggle<cr>
 
+"MRU
+nmap zr :MRU<cr>
+
 "Python flake8 check
 autocmd FileType python map <buffer> zfp :call Flake8()<CR>
