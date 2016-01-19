@@ -151,6 +151,9 @@ set cursorline cursorcolumn
 "Set *.html.erb files to html, ruby and erb filetype
 autocmd BufNewFile,BufRead *.html.erb set filetype=html.ruby.erb
 autocmd BufNewFile,BufRead *.md set filetype=markdown
+autocmd BufNewFile,BufRead *.html set filetype=jinja
+autocmd BufNewFile,BufRead *.jinja set filetype=jinja
+autocmd BufNewFile,BufRead *.jinja2 set filetype=jinja
 """"""""""""""""""""""""""""""""""""""""
 " Helper functions                     "
 """"""""""""""""""""""""""""""""""""""""
