@@ -97,3 +97,12 @@
 [submodule "vim/vim/bundle/vim-nerdtree-tabs"]
 	path = vim/vim/bundle/vim-nerdtree-tabs
 	url = https://github.com/jistr/vim-nerdtree-tabs.git
+[submodule "vim/vim/bundle/numbers.vim"]
+	path = vim/vim/bundle/numbers.vim
+	url = https://github.com/myusuf3/numbers.vim.git
+[submodule "vim/vim/bundle/mru.vim"]
+	path = vim/vim/bundle/mru.vim
+	url = https://github.com/vim-scripts/mru.vim.git
+[submodule "vim/vim/bundle/vinarise.vim"]
+	path = vim/vim/bundle/vinarise.vim
+	url = https://github.com/Shougo/vinarise.vim.git

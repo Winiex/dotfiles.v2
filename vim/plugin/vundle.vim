@@ -29,6 +29,9 @@ Bundle 'jistr/vim-nerdtree-tabs'
 Bundle 'kien/rainbow_parentheses.vim'
 Bundle 'mbbill/undotree'
 Bundle 'vim-scripts/TaskList.vim'
+Bundle 'myusuf3/numbers.vim'
+Bundle 'Shougo/vinarise.vim'
+Bundle 'vim-scripts/mru.vim'
 
 "Python support
 Bundle 'klen/python-mode'
