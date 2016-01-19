@@ -33,7 +33,7 @@ Bundle 'mattn/emmet-vim'
 Bundle 'solarnz/thrift.vim'
 
 "Jinja2 support
-Bundle 'mitsuhiko/vim-jinja'
+Bundle 'Glench/Vim-Jinja2-Syntax'
 
 "Golang support
 Bundle 'fatih/vim-go'
