@@ -27,5 +27,11 @@ nmap oo o<Esc>
 "Insert newline after cursor
 nmap mo i<Enter><Esc>
 
+"Show indents in code
+nmap zt <Leader>ig
+
+"Toggle undo tree
+nmap zu :UndotreeToggle<cr>
+
 "Python flake8 check
 autocmd FileType python map <buffer> zfp :call Flake8()<CR>

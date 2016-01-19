@@ -79,3 +79,21 @@
 [submodule "vim/vim/bundle/vim-snippets"]
 	path = vim/vim/bundle/vim-snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "vim/vim/bundle/MatchTag"]
+	path = vim/vim/bundle/MatchTag
+	url = https://github.com/gregsexton/MatchTag.git
+[submodule "vim/vim/bundle/TaskList.vim"]
+	path = vim/vim/bundle/TaskList.vim
+	url = https://github.com/vim-scripts/TaskList.vim.git
+[submodule "vim/vim/bundle/rainbow_parentheses.vim"]
+	path = vim/vim/bundle/rainbow_parentheses.vim
+	url = https://github.com/kien/rainbow_parentheses.vim.git
+[submodule "vim/vim/bundle/undotree"]
+	path = vim/vim/bundle/undotree
+	url = https://github.com/mbbill/undotree.git
+[submodule "vim/vim/bundle/vim-css-color"]
+	path = vim/vim/bundle/vim-css-color
+	url = https://github.com/ap/vim-css-color.git
+[submodule "vim/vim/bundle/vim-nerdtree-tabs"]
+	path = vim/vim/bundle/vim-nerdtree-tabs
+	url = https://github.com/jistr/vim-nerdtree-tabs.git

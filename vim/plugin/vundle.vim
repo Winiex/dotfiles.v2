@@ -25,6 +25,10 @@ Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'tomtom/tlib_vim'
 Bundle 'garbas/vim-snipmate'
 Bundle 'honza/vim-snippets'
+Bundle 'jistr/vim-nerdtree-tabs'
+Bundle 'kien/rainbow_parentheses.vim'
+Bundle 'mbbill/undotree'
+Bundle 'vim-scripts/TaskList.vim'
 
 "Python support
 Bundle 'klen/python-mode'
@@ -32,6 +36,8 @@ Bundle 'davidhalter/jedi-vim'
 
 "Html and CSS support
 Bundle 'mattn/emmet-vim'
+Bundle 'ap/vim-css-color'
+Bundle 'gregsexton/MatchTag'
 
 "Thrift support
 Bundle 'solarnz/thrift.vim'
