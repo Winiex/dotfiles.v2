@@ -28,7 +28,7 @@ nmap oo o<Esc>
 nmap mo i<Enter><Esc>
 
 "Show indents in code
-nmap zt <Leader>ig
+nmap zi <Leader>ig
 
 "Toggle undo tree
 nmap zu :UndotreeToggle<cr>
