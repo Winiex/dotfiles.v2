@@ -1,6 +1,9 @@
 "Remap VIM 0 to the first non-blank character
 map 0 ^
 
+"Close window
+nmap zc <C-W>c
+
 "CtrlP mappings
 map zps :CtrlP<Enter>
 map zpb :CtrlPBuffer<Enter>
