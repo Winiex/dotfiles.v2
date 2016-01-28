@@ -46,9 +46,6 @@
 [submodule "vim/vim/bundle/thrift.vim"]
 	path = vim/vim/bundle/thrift.vim
 	url = https://github.com/solarnz/thrift.vim.git
-[submodule "vim/vim/bundle/python-mode"]
-	path = vim/vim/bundle/python-mode
-	url = https://github.com/klen/python-mode.git
 [submodule "vim/vim/bundle/vim-go"]
 	path = vim/vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
