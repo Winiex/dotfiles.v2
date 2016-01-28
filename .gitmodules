@@ -103,3 +103,6 @@
 [submodule "vim/vim/bundle/vinarise.vim"]
 	path = vim/vim/bundle/vinarise.vim
 	url = https://github.com/Shougo/vinarise.vim.git
+[submodule "vim/vim/bundle/python-mode"]
+	path = vim/vim/bundle/python-mode
+	url = https://github.com/klen/python-mode.git
