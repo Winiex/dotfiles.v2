@@ -147,13 +147,22 @@ set cursorline cursorcolumn
 """"""""""""""""""""""""""""""""""""""""
 " Set Filetypes                        "
 """"""""""""""""""""""""""""""""""""""""
+"Set html filetype
+autocmd BufNewFile,BufRead *.html set filetype=html.jinja
 
 "Set *.html.erb files to html, ruby and erb filetype
 autocmd BufNewFile,BufRead *.html.erb set filetype=html.ruby.erb
+
+"Set markdown filetype
 autocmd BufNewFile,BufRead *.md set filetype=markdown
-autocmd BufNewFile,BufRead *.html set filetype=jinja
-autocmd BufNewFile,BufRead *.jinja set filetype=jinja
-autocmd BufNewFile,BufRead *.jinja2 set filetype=jinja
+autocmd BufNewFile,BufRead *.markdown set filetype=markdown
+
+"Set jinja filetype
+autocmd BufNewFile,BufRead *.jinja set filetype=jinja.html
+autocmd BufNewFile,BufRead *.jinja2 set filetype=jinja.html
+
+"Set golang template
+autocmd BufNewFile,BufRead *.tpl set filetype=html
 """"""""""""""""""""""""""""""""""""""""
 " Helper functions                     "
 """"""""""""""""""""""""""""""""""""""""
