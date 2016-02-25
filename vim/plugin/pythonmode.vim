@@ -5,7 +5,7 @@ let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'mccabe']
 let g:pymode_lint = 1
 let g:pymode_lint_checker = "pyflakes,pep8"
 let g:pymode_lint_on_write = 1
-let g:pymode_lint_unmodified = 0
+let g:pymode_lint_unmodified = 1
 
 " Auto check on save
 let g:pymode_lint_write = 1
