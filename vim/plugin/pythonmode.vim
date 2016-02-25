@@ -1,9 +1,11 @@
 "Set checkers
-let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'pyflakes']
+let g:pymode_lint_checkers = ['pyflakes', 'pep8', 'mccabe']
 
 "Linting
 let g:pymode_lint = 1
 let g:pymode_lint_checker = "pyflakes,pep8"
+let g:pymode_lint_on_write = 1
+let g:pymode_lint_unmodified = 0
 
 " Auto check on save
 let g:pymode_lint_write = 1
@@ -20,6 +22,10 @@ let g:pymode_syntax_space_errors = g:pymode_syntax_all
 
 " Don't autofold code
 let g:pymode_folding = 0
+
+" Color bar
+autocmd BufRead *.py setlocal colorcolumn=80
+hi ColorColumn ctermbg=88
 
 " Disable rope
 "let g:pymode_rope = 0
