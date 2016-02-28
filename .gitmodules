@@ -106,3 +106,6 @@
 [submodule "vim/vim/bundle/python-mode"]
 	path = vim/vim/bundle/python-mode
 	url = https://github.com/klen/python-mode.git
+[submodule "vim/vim/bundle/vim-easymotion"]
+	path = vim/vim/bundle/vim-easymotion
+	url = https://github.com/easymotion/vim-easymotion.git

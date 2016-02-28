@@ -73,7 +73,7 @@ autocmd BufReadPost *
 """""""""""""""""""""""""""""""""""""""
 " Now set the colors and fonts        "
 """""""""""""""""""""""""""""""""""""""
-colorscheme monokain
+colorscheme distinguished
 
 """""""""""""""""""""""""""""""""""""""
 " Common Configurations               "

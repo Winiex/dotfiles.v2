@@ -39,5 +39,9 @@ nmap zu :UndotreeToggle<cr>
 "MRU
 nmap zr :MRU<cr>
 
+" Easy motion
+nmap ze <Leader><Leader>w
+nmap zf <Leader><Leader>f
+
 "Python flake8 check
 autocmd FileType python map <buffer> zfp :call Flake8()<CR>

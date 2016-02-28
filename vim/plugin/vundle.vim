@@ -32,6 +32,7 @@ Bundle 'vim-scripts/TaskList.vim'
 Bundle 'myusuf3/numbers.vim'
 Bundle 'Shougo/vinarise.vim'
 Bundle 'vim-scripts/mru.vim'
+Bundle 'easymotion/vim-easymotion'
 
 "Python support
 Bundle 'klen/python-mode'
