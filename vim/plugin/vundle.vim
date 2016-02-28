@@ -33,6 +33,7 @@ Bundle 'myusuf3/numbers.vim'
 Bundle 'Shougo/vinarise.vim'
 Bundle 'vim-scripts/mru.vim'
 Bundle 'easymotion/vim-easymotion'
+Bundle 'sheerun/vim-polyglot'
 
 "Python support
 Bundle 'klen/python-mode'
@@ -43,15 +44,8 @@ Bundle 'mattn/emmet-vim'
 Bundle 'ap/vim-css-color'
 Bundle 'gregsexton/MatchTag'
 
-"Thrift support
-Bundle 'solarnz/thrift.vim'
-
 "Jinja2 support
 Bundle 'Glench/Vim-Jinja2-Syntax'
 
 "Golang support
 Bundle 'fatih/vim-go'
-
-"Javascript support
-Bundle 'pangloss/vim-javascript'
-Bundle 'mxw/vim-jsx'

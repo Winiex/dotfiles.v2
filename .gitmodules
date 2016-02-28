@@ -43,21 +43,12 @@
 [submodule "vim/vim/bundle/jedi-vim"]
 	path = vim/vim/bundle/jedi-vim
 	url = https://github.com/davidhalter/jedi-vim.git
-[submodule "vim/vim/bundle/thrift.vim"]
-	path = vim/vim/bundle/thrift.vim
-	url = https://github.com/solarnz/thrift.vim.git
 [submodule "vim/vim/bundle/vim-go"]
 	path = vim/vim/bundle/vim-go
 	url = https://github.com/fatih/vim-go.git
 [submodule "vim/vim/bundle/ack.vim"]
 	path = vim/vim/bundle/ack.vim
 	url = https://github.com/mileszs/ack.vim.git
-[submodule "vim/vim/bundle/vim-javascript"]
-	path = vim/vim/bundle/vim-javascript
-	url = http://github.com/pangloss/vim-javascript.git
-[submodule "vim/vim/bundle/vim-jsx"]
-	path = vim/vim/bundle/vim-jsx
-	url = https://github.com/mxw/vim-jsx.git
 [submodule "vim/vim/bundle/vim-airline"]
 	path = vim/vim/bundle/vim-airline
 	url = https://github.com/bling/vim-airline.git
@@ -109,3 +100,6 @@
 [submodule "vim/vim/bundle/vim-easymotion"]
 	path = vim/vim/bundle/vim-easymotion
 	url = https://github.com/easymotion/vim-easymotion.git
+[submodule "vim/vim/bundle/vim-polyglot"]
+	path = vim/vim/bundle/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot.git
