@@ -163,6 +163,9 @@ autocmd BufNewFile,BufRead *.jinja2 set filetype=jinja.html
 
 "Set golang template
 autocmd BufNewFile,BufRead *.tpl set filetype=html
+
+"Set blade template filetype
+autocmd BufNewFile,BufRead *.blade.php set ft=html | set ft=phtml | set ft=blade
 """"""""""""""""""""""""""""""""""""""""
 " Helper functions                     "
 """"""""""""""""""""""""""""""""""""""""
