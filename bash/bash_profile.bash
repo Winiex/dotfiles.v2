@@ -1,6 +1,7 @@
 source ~/.dotfiles/bash/bootstrap.bash
 
 #Load configurations
+source $GLB_BASH_HOME/configs/basic.bash
 source $GLB_BASH_HOME/configs/bashit.bash
 source $GLB_BASH_HOME/configs/python.bash
 source $GLB_BASH_HOME/configs/editor.bash
