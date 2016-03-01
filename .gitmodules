@@ -103,3 +103,6 @@
 [submodule "vim/vim/bundle/vim-polyglot"]
 	path = vim/vim/bundle/vim-polyglot
 	url = https://github.com/sheerun/vim-polyglot.git
+[submodule "vim/vim/bundle/vim-blade"]
+	path = vim/vim/bundle/vim-blade
+	url = https://github.com/VuogNguyen/vim-blade.git

@@ -43,6 +43,7 @@ Bundle 'davidhalter/jedi-vim'
 Bundle 'mattn/emmet-vim'
 Bundle 'ap/vim-css-color'
 Bundle 'gregsexton/MatchTag'
+Bundle 'VuogNguyen/vim-blade'
 
 "Jinja2 support
 Bundle 'Glench/Vim-Jinja2-Syntax'
