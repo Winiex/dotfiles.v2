@@ -16,6 +16,7 @@ source ~/.dotfiles/vim/plugin/jedi.vim
 source ~/.dotfiles/vim/plugin/supertab.vim
 source ~/.dotfiles/vim/plugin/syntastic.vim
 source ~/.dotfiles/vim/plugin/rainbow-parentheses.vim
+source ~/.dotfiles/vim/plugin/polyglot.vim
 
 """"""""""""""""""""""""""""""""""""""""
 " Startup functions                    "
