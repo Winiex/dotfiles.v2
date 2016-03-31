@@ -106,3 +106,6 @@
 [submodule "vim/vim/bundle/vim-blade"]
 	path = vim/vim/bundle/vim-blade
 	url = https://github.com/VuogNguyen/vim-blade.git
+[submodule "vim/vim/bundle/vim-autotag"]
+	path = vim/vim/bundle/vim-autotag
+	url = https://github.com/craigemery/vim-autotag.git

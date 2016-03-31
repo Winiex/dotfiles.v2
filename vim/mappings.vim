@@ -9,6 +9,7 @@ map zps :CtrlP<Enter>
 map zpb :CtrlPBuffer<Enter>
 map zpm :CtrlPMRU<Enter>
 map zpx :CtrlPMixed<Enter>
+nmap zpp :CtrlPTag<Enter>
 
 "Tagbar mappings
 map zgs :Tagbar<Enter>

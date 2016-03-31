@@ -34,6 +34,7 @@ Bundle 'Shougo/vinarise.vim'
 Bundle 'vim-scripts/mru.vim'
 Bundle 'easymotion/vim-easymotion'
 Bundle 'sheerun/vim-polyglot'
+Bundle 'craigemery/vim-autotag'
 
 "Python support
 Bundle 'klen/python-mode'
