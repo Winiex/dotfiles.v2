@@ -51,3 +51,6 @@ Bundle 'Glench/Vim-Jinja2-Syntax'
 
 "Golang support
 Bundle 'fatih/vim-go'
+
+"PHP support
+Bundle 'shawncplus/phpcomplete.vim'
