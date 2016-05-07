@@ -17,7 +17,6 @@ source ~/.dotfiles/vim/plugin/supertab.vim
 source ~/.dotfiles/vim/plugin/syntastic.vim
 source ~/.dotfiles/vim/plugin/rainbow-parentheses.vim
 source ~/.dotfiles/vim/plugin/polyglot.vim
-source ~/.dotfiles/vim/plugin/phpcomplete.vim
 
 """"""""""""""""""""""""""""""""""""""""
 " Startup functions                    "
