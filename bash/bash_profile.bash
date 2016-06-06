@@ -8,6 +8,7 @@ source $GLB_BASH_HOME/configs/editor.bash
 source $GLB_BASH_HOME/configs/virtualenv.bash
 source $GLB_BASH_HOME/configs/golang.bash
 source $GLB_BASH_HOME/configs/nodejs.bash
+source $GLB_BASH_HOME/configs/term.bash
 
 #Load custom alias
 source $GLB_BASH_HOME/alias/basic.bash

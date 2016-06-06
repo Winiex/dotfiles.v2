@@ -243,6 +243,35 @@ clr_green "# Emacs is good, I choose vim.        #"
 clr_green "#                -- By winiex         #"
 clr_green "#######################################"
 
+#Create repository directories.
+printf "\n"
+clr_green "#######################################"
+clr_green "#  Now create repository directories  #"
+clr_green "#######################################"
+printf "\n"
+
+if [ ! -d ~/repository ]; then
+    mkdir ~/repository
+fi
+
+if [ ! -d ~/repository/code ]; then
+    mkdir ~/repository/code
+fi
+
+if [ ! -d ~/repository/source ]; then
+    mkdir "~/repository/source"
+fi
+
+if [ ! -d ~/repository/blog ]; then
+    git clone --recursive git@github.com:Winiex/winiex.github.io.git ~/repository/blog
+fi
+
+clr_green "#######################################"
+clr_green "# Repository created.                 #"
+clr_green "# Put your stuff here, and sync it.   #"
+clr_green "#                -- By winiex         #"
+clr_green "#######################################"
+
 printf "\n"
 clr_green "#######################################"
 clr_green "# Dotfiles installed successfully.    #"
