@@ -54,3 +54,6 @@ Bundle 'fatih/vim-go'
 
 "PHP support
 Bundle 'shawncplus/phpcomplete.vim'
+
+"Vue.js support
+Bundle 'posva/vim-vue'
