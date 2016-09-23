@@ -73,7 +73,7 @@ autocmd BufReadPost *
 """""""""""""""""""""""""""""""""""""""
 " Now set the colors and fonts        "
 """""""""""""""""""""""""""""""""""""""
-colorscheme distinguished
+colorscheme alduin
 
 """""""""""""""""""""""""""""""""""""""
 " Common Configurations               "
@@ -169,6 +169,9 @@ autocmd BufNewFile,BufRead *.blade.php set ft=html | set ft=phtml | set ft=blade
 
 "Set css filetype
 autocmd BufNewFile,BufRead *.css set ft=css
+
+"Set javascript filetype
+autocmd BufNewFile,BufRead *.js set ft=js.javascript
 
 """"""""""""""""""""""""""""""""""""""""
 " Helper functions                     "
