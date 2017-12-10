@@ -9,6 +9,8 @@ source $GLB_BASH_HOME/configs/virtualenv.bash
 source $GLB_BASH_HOME/configs/golang.bash
 source $GLB_BASH_HOME/configs/nodejs.bash
 source $GLB_BASH_HOME/configs/term.bash
+source $GLB_BASH_HOME/configs/nvm.bash
+source $GLB_BASH_HOME/configs/tmux.bash
 
 #Load custom alias
 source $GLB_BASH_HOME/alias/basic.bash

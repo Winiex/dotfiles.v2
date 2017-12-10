@@ -115,3 +115,6 @@
 [submodule "vim/vim/bundle/vim-vue"]
 	path = vim/vim/bundle/vim-vue
 	url = https://github.com/posva/vim-vue.git
+[submodule "tmux/OhMyTmux"]
+	path = tmux/OhMyTmux
+	url = https://github.com/gpakosz/.tmux.git
