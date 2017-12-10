@@ -12,7 +12,7 @@ if [ -f ~/.tmux.conf.local ]; then
 fi
 
 ln -s $GLB_TMUX_HOME/OhMyTmux/.tmux.conf ~/.tmux.conf
-cp $GLB_TMUX_HOME/OhMyTmux/.tmux.conf.local ~/.tmux.conf.local
+cp $GLB_TMUX_HOME/.tmux.conf.local ~/.tmux.conf.local
 
 if [ `command -v tmux` ]; then
     tmux source-file ~/.tmux.conf
