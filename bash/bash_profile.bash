@@ -20,5 +20,6 @@ source $GLB_BASH_HOME/alias/git.bash
 source $GLB_BASH_HOME/alias/virtualenv.bash
 source $GLB_BASH_HOME/alias/os.bash
 source $GLB_BASH_HOME/alias/tools.bash
+source $GLB_BASH_HOME/alias/tmux.bash
 
 source $GLB_BASH_IT_HOME/bash_it.sh
