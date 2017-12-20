@@ -27,3 +27,8 @@ alias dstat='dstat -cdlmnpsy'
 alias ll='ls -al'
 alias j='jobs'
 alias o=open
+
+if [[ $SYS_PLATFORM == "linux" ]]
+then
+    alias open="xdg-open"
+fi
